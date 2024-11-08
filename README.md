@@ -12,4 +12,4 @@ The quantum circuit is of 128 qubits, that is done through a loop as the limitat
 
 # AES Encryption and Decryption use-case
 
-The output from the QRNG is then formatted into the form needed by the encryption library used (pycryptodome) and then plugged into the AES encryption algorithm as the key. This code blocks has the outputs of the encrypted message as well as the message after the decryptions, which would realistically be on the receiving end of a data transmission or the hash of a password in a database. 
+The output from the QRNG is then formatted into the form needed by the encryption library used (pycryptodome) and then plugged into the AES encryption algorithm as the key. This code blocks has the outputs of the encrypted message as well as the message after the decryptions, which would realistically be on the receiving end of a data transmission or the hash of a password in a database.
